@@ -9,6 +9,16 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Elephant extends Actor
 {
     GreenfootSound elephantSound = new GreenfootSound("elephant.mp3");
+    GreenfootImage idle = new GreenfootImage("images/elephnat_idle/idle0.png");
+    
+    /**
+     * Constructor
+     */
+    public Elephnat()
+    {
+        setImage(idle); 
+    }
+    
     
     /**
      * Act - do whatever the Elephant wants to do. This method is called whenever
