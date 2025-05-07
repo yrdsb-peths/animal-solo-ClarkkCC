@@ -18,7 +18,7 @@ public class Elephant extends Actor
     {
         for(int i = 0; i < 8; i++)
         {
-            idle[i] = new GreenfootImage("images/elephant_idle/idle" + i + ".png");
+            idle[i] = new GreenfootImage("images/Elephant_idle.png/idle" + i + ".png");
         }
         setImage(idle[0]); 
     }
@@ -41,11 +41,11 @@ public class Elephant extends Actor
         // Add your action code here
         if(Greenfoot.isKeyDown("left"))
         {
-            move(-1);
+            move(-3);
         }
         else if(Greenfoot.isKeyDown("right"))
         {
-            move(1);
+            move(3);
         }
         
         //Remove apple if elephant eats it
