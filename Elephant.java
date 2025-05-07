@@ -49,6 +49,7 @@ public class Elephant extends Actor
         {
             return;
         }
+        animationTimer.mark();
         if(facing.equals("right"))
         {
         setImage(idleRight[imageIndex]);
